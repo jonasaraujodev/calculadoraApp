@@ -1,50 +1,82 @@
-# Welcome to your Expo app 👋
+# CalculadoraApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Projeto de aplicativo de calculadora feito com React Native.
 
-## Get started
+## 🚀 Sobre o projeto
 
-1. Install dependencies
+Aplicativo de calculadora desenvolvido em React Native utilizando Expo. Ele permite realizar operações matemáticas básicas com uma interface amigável e responsiva, adequada para dispositivos móveis Android.
+
+## Pré-requisitos
+
+- [Node.js](https://nodejs.org/) (recomendado versão LTS)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Dispositivo Android com [Expo Go](https://expo.dev/client) instalado **ou** um simulador/emulador Android/iOS configurado na sua máquina
+
+## 🛠️ Instalação
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/jonasaraujodev/calculadoraApp.git
+   cd calculadoraApp
+   ```
+
+2. **Instale as dependências:**
 
    ```bash
    npm install
+   # ou
+   yarn install
    ```
 
-2. Start the app
+3. **Instale o Expo CLI globalmente (caso não tenha):**
+
+   ```bash
+   npm install -g expo-cli   
+
+
+## Executando a aplicação
+
+1. **Inicie o app**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+No terminal, aparecerão opções para abrir o app em:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Expo Go](https://expo.dev/go) _(recomendado para testar rapidamente no dispositivo Android)_
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+> **Dica:** Para rodar no dispositivo Android, basta instalar o Expo Go, escanear o QR code que aparece após rodar `npx expo start` e pronto!  
+>> Certifique-se de que o dispositivo Android e seu computador estão na mesma rede Wi-Fi.
 
-## Get a fresh project
+> Também é possível usar emuladores/simuladores se preferir desenvolver direto no computador.
 
-When you're ready, run:
+Você pode começar a desenvolver editando os arquivos dentro do diretório **app**. Este projeto usa [roteamento baseado em arquivos](https://docs.expo.dev/router/introduction).
 
-```bash
-npm run reset-project
+## Estrutura do projeto
+
+```
+calculadoraApp/
+├── src/
+│   └── ... (código fonte)
+├── assets/
+│   └── ... (imagens e outros recursos)
+├── App.js
+├── package.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 💡 Contribuição
 
-## Learn more
+Achou algum bug, tem sugestões ou quer ajudar a melhorar o app? Fique à vontade para abrir issues ou pull requests aqui no repositório!
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📄 Licença
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Este projeto está sob a licença Jonas Araújo Development.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
